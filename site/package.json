@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mime": "^2.4.4"
+    "mime": "^2.4.4",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "valimate": "^2.3.0"
