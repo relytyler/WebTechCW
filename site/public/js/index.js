@@ -1,7 +1,5 @@
 'use strict';
 
-let d = new Date();
-var h = document.createElement("h1");
-var date = document.createTextNode("" + d);
-h.appendChild(date);
-document.body.appendChild(h);
+import App from './App.js';
+
+ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
