@@ -42,4 +42,14 @@ var LikeButton = function (_React$Component) {
   return LikeButton;
 }(React.Component);
 
+var likeButtons = document.querySelectorAll('.like_button_container');
+
+likeButtons.forEach(function (domContainer) {
+  // Read the comment ID from a data-* attribute.
+  var commentID = parseInt(domContainer.dataset.commentid, 10);
+  ReactDOM.render(React.createElement(LikeButton, {
+    commentID: commentID
+  }), domContainer);
+});
+
 export default LikeButton;

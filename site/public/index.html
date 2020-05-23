@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
-    
+    <rss version="2.0"></rss>
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>NothingBut.Net</title>
-        <link rel="stylesheet" href="css/index.css"/>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/index.css"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
     </head>
-
     
     <body>
         <div id="root"></div>
         <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin="anonymous"></script>
         <script type="module" src="js/index.js"></script>
-        <script type="module" src="js/like_button.js"></script>
+        <script src="js/NavigationBar.js"></script>
 
         <div class="topnav" id="myTopNav">
-            <a class="active" href="#home">Home</a>
+            <a class="active" href="index.html">Home</a>
             <a href="#Chat">Chat</a>
             <a href="#standings">Standings</a>
             <a href="#watch">Watch</a>
             <a href="#games">Games</a>
-            <a href="#about">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="about.html">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="displayMenu()">
                 <i class="fa fa-bars"></i>
               </a>
         </div>
-        <script src="js/NavigationBar.js"></script>
         
+        <script language="JavaScript" src="http://feedroll.com/rssviewer/feed2js.php?src=https%3A%2F%2Fwww.espn.com%2Fespn%2Frss%2Fnba%2Fnews&chan=title&num=4&desc=1&au=y&date=y&utf=y"  charset="UTF-8" type="text/javascript"></script>
+
+        <noscript>
+        <a href="http://feedroll.com/rssviewer/feed2js.php?src=https%3A%2F%2Fwww.espn.com%2Fespn%2Frss%2Fnba%2Fnews&chan=title&num=4&desc=1&au=y&date=y&utf=y&html=y">View RSS feed</a>
+        </noscript>
+
         <p>
             First comment
             <div class="like_button_container" data-commentid="1"></div>
@@ -46,7 +50,4 @@
             <div class="like_button_container" data-commentid="3"></div>
         </p>         
     </body>
-
-    
-
 </html>

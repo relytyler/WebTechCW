@@ -1,0 +1,18 @@
+Roberto Lau-Soto rl17185
+Tyler Ward tw17530
+
+Our website will be a news aggregator for basketball/NBA news.
+
+<ul>
+<li>B for HTML</li> *
+<li>B for CSS</li>
+<li>B for JS</li>
+<li>A for PNG</li>
+<li>X for SVG</li>
+<li>C for Server</li>
+<li>X for Database</li>
+<li>X for Dynamic pages</li>
+<li>4 for Depth (out of 20)</li>
+</ul>
+
+* using xhtml to validate html files, then switching to normal html to be able to use modules in js.
