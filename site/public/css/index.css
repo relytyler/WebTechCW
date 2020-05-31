@@ -184,20 +184,6 @@ p {
   float: right;
 }
 
-.shaq-twitter-feed {
-  float: right;
-  position: absolute;
-  margin: auto;
-  display: block;
-  overflow: hidden;
-  width: 1000;
-}
-
 .woj-twitter-feed {
-  float: right;
-  position: absolute;
-  margin: auto;
-  display: block;
-  overflow: hidden;
-  width: 2000;
+  float: left;
 }
