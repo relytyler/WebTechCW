@@ -179,3 +179,25 @@ p {
 .like_button_container {
   color: #d4af37;
 }
+
+.nba-twitter-feed {
+  float: right;
+}
+
+.shaq-twitter-feed {
+  float: right;
+  position: absolute;
+  margin: auto;
+  display: block;
+  overflow: hidden;
+  width: 1000;
+}
+
+.woj-twitter-feed {
+  float: right;
+  position: absolute;
+  margin: auto;
+  display: block;
+  overflow: hidden;
+  width: 2000;
+}
