@@ -24,6 +24,10 @@ for (var i=0; i<videos.length; i++) {
         iframe.style.width = this.style.width;
         iframe.style.height = this.style.height;
 
+        var video = document.createElement("div");
+        video.setAttribute("class", video);
+
         this.parentNode.replaceChild(iframe, this);
+        this.parentNode.replaceChild(video, this);
     }
 }
