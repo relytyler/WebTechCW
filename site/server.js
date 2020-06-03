@@ -28,6 +28,9 @@ let types, paths;
 // Start the server:
 start();
 
+const { exec } = require("child_process");
+exec("node public/login.js");
+
 // Check the site, giving quick feedback if it hasn't been set up properly.
 // Start the http service. Accept only requests from localhost, for security.
 // If successful, the handle function is called for each request.
@@ -142,3 +145,66 @@ function defineTypes() {
     }
     return types;
 }
+
+// var mysql = require('mysql');
+// var express = require('express');
+// var session = require('express-session');
+// var bodyParser = require('body-parser');
+// var path = require('path');
+
+// var connection = mysql.createConnection({
+// 	host     : 'localhost',
+// 	user     : 'root',
+// 	password : '',
+// 	database : 'userdata'
+// });
+
+// var app = express();
+// app.use(session({
+// 	secret: 'secret',
+// 	resave: true,
+// 	saveUninitialized: true
+// }));
+// app.use(bodyParser.urlencoded({extended : true}));
+// app.use(bodyParser.json());
+
+// // app.get('/', function(request, response) {
+// // 	response.sendFile(path.join(__dirname + '/public/login.html'));
+// // });
+
+// app.post('/auth', function(request, response) {
+// 	var username = request.body.username;
+// 	var password = request.body.password;
+// 	if (username && password) {
+// 		connection.query('SELECT * FROM users WHERE username = ? AND password = ?', 
+// 		[username, password], 
+// 		function(error, results, fields) {
+// 			if (error) {
+// 				console.log(error);
+// 			}
+// 			if (results.length > 0) {
+// 				request.session.loggedin = true;
+// 				request.session.username = username;
+// 				response.redirect('index.html');
+// 			} else {
+// 				response.send('Incorrect Username and/or Password!');
+// 			}			
+// 			response.end();
+// 		});
+// 	} else {
+// 		response.send('Please enter Username and Password!');
+// 		response.end();
+// 	}
+// });
+
+// // app.get('/home', function(request, response) {
+// // 	if (request.session.loggedin) {
+// // 		response.send('Welcome back, ' + request.session.username + '!');
+// // 	} else {
+// // 		response.send('Please login to view this page!');
+// // 	}
+// // 	response.end();
+// // });
+
+// // app.listen(8080);
+
