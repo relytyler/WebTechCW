@@ -196,5 +196,6 @@ iframe {
 
 .news {
   overflow: hidden;
+  /* width: 60%; */
   display: block;
 }
