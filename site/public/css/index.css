@@ -209,3 +209,17 @@ p {
   /* width: 60%; */
   display: block;
 }
+
+.banner {
+  overflow: hidden;
+}
+
+.under {
+  position: absolute;
+  left: 150px;
+  top: 0px;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
