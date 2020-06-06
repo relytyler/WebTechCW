@@ -225,15 +225,21 @@ p {
 @keyframes bottom-bounce {
   
   0% {
-    transform: translateY(0px);
+    position: absolute;
+    left: 0px;
+    top: 0px;
   }
 
   50% {
-    transform: translateY(-180px)
+    position: absolute;
+    left: 0px;
+    top: -200px;
   }
 
   100% {
-    transform: translateY(0px);
+    position: absolute;
+    left:0px;
+    top: 0px;
   }
   
 }
@@ -241,19 +247,20 @@ p {
 @keyframes top-bounce {
   
   0% {
-    transform: translateY(0px);
+    /* transform: translateY(0px); */
   }
 
   50% {
-    transform: translateY(-180px)
+    transform: translateY(-150px);
   }
 
   100% {
-    transform: translateY(0px);
+    /* transform: translateY(0px); */
   }
   
 }
 
 .bottom-ball {
-  animation: bottom-bounce 2s linear infinite alternate;
+  position: relative;
+  animation: bottom-bounce 5s linear 2s infinite alternate;
 }
