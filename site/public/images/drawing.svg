@@ -53,7 +53,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <g
-       id="g864-3"
+       id="Ball1"
        transform="matrix(0.31449719,0,0,0.31449719,-12.79975,-1.5908994)">
       <circle
          r="35.529762"
@@ -79,7 +79,7 @@
          id="path839-6-6" />
     </g>
     <g
-       id="g864-6"
+       id="Ball2"
        transform="matrix(0.31449719,0,0,0.31449719,37.692409,-0.36137768)">
       <circle
          r="35.529762"
@@ -106,7 +106,7 @@
     </g>
     <g
        transform="matrix(0.31449719,0,0,0.31449719,10.497925,-33.005101)"
-       id="g864-3-4">
+       id="Ball3">
       <circle
          style="fill:#d45500;fill-rule:evenodd;stroke-width:0.264583"
          id="path10-2-7"
@@ -132,7 +132,7 @@
     </g>
     <g
        transform="matrix(0.31449719,0,0,0.31449719,89.244953,-2.4423224)"
-       id="g864-6-6">
+       id="Ball4">
       <circle
          style="fill:#d45500;fill-rule:evenodd;stroke-width:0.264583"
          id="path10-9-1"
@@ -157,7 +157,7 @@
          style="fill:#000000;stroke:#000000;stroke-width:1.15257;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
-       id="g864-3-4-6"
+       id="Ball5"
        transform="matrix(0.31449719,0,0,0.31449719,63.347621,-31.610472)">
       <circle
          r="35.529762"
@@ -183,7 +183,7 @@
          id="path839-6-6-3-3" />
     </g>
     <g
-       id="g864-6-6-3"
+       id="Ball6"
        transform="matrix(0.31449719,0,0,0.31449719,142.38996,-3.2238662)">
       <circle
          r="35.529762"
@@ -210,7 +210,7 @@
     </g>
     <g
        transform="matrix(0.31449719,0,0,0.31449719,114.53876,-33.173561)"
-       id="g864-3-4-6-4">
+       id="Ball7">
       <circle
          style="fill:#d45500;fill-rule:evenodd;stroke-width:0.264583"
          id="path10-2-7-8-2"
@@ -236,7 +236,7 @@
     </g>
     <g
        transform="matrix(0.31449719,0,0,0.31449719,186.93798,-27.842508)"
-       id="g864-6-6-3-7">
+       id="Ball8">
       <g
          transform="translate(16.152886,84.49202)"
          id="g1201">
@@ -265,7 +265,7 @@
       </g>
     </g>
     <g
-       id="g864-3-4-6-4-9"
+       id="Ball9"
        transform="matrix(0.31449719,0,0,0.31449719,167.293,-32.78279)">
       <circle
          r="35.529762"
@@ -291,7 +291,7 @@
          id="path839-6-6-3-3-5-1" />
     </g>
     <g
-       id="g864-6-6-3-7-1"
+       id="Ball10"
        transform="matrix(0.31449719,0,0,0.31449719,218.19974,-32.922544)">
       <circle
          r="35.529762"
@@ -318,7 +318,7 @@
     </g>
     <g
        transform="matrix(0.31449719,0,0,0.31449719,239.97661,-0.34870569)"
-       id="g864-3-4-6-4-9-8">
+       id="Ball11">
       <circle
          style="fill:#d45500;fill-rule:evenodd;stroke-width:0.264583"
          id="path10-2-7-8-2-2-1"
