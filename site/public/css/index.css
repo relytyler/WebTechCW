@@ -216,7 +216,7 @@ p {
 
 .under {
   position: absolute;
-  left: 150px;
+  left: 250px;
   top: 0px;
   z-index: -1;
   margin-left: auto;
