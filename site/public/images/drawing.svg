@@ -53,6 +53,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <g
+       class="bottom-ball"
        id="Ball1"
        transform="matrix(0.31449719,0,0,0.31449719,-12.79975,-1.5908994)">
       <circle
@@ -79,6 +80,7 @@
          id="path839-6-6" />
     </g>
     <g
+       class="top-ball"
        id="Ball2"
        transform="matrix(0.31449719,0,0,0.31449719,37.692409,-0.36137768)">
       <circle
@@ -105,6 +107,7 @@
          id="path839-6-69" />
     </g>
     <g
+       class="bottom-ball"
        transform="matrix(0.31449719,0,0,0.31449719,10.497925,-33.005101)"
        id="Ball3">
       <circle
@@ -131,6 +134,7 @@
          style="fill:#000000;stroke:#000000;stroke-width:1.15257;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
+       class="top-ball"
        transform="matrix(0.31449719,0,0,0.31449719,89.244953,-2.4423224)"
        id="Ball4">
       <circle
@@ -157,6 +161,7 @@
          style="fill:#000000;stroke:#000000;stroke-width:1.15257;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
+       class="bottom-ball"
        id="Ball5"
        transform="matrix(0.31449719,0,0,0.31449719,63.347621,-31.610472)">
       <circle
@@ -183,6 +188,7 @@
          id="path839-6-6-3-3" />
     </g>
     <g
+       class="top-ball"
        id="Ball6"
        transform="matrix(0.31449719,0,0,0.31449719,142.38996,-3.2238662)">
       <circle
@@ -209,6 +215,7 @@
          id="path839-6-69-5-5" />
     </g>
     <g
+       class="bottom-ball"
        transform="matrix(0.31449719,0,0,0.31449719,114.53876,-33.173561)"
        id="Ball7">
       <circle
@@ -238,6 +245,7 @@
        transform="matrix(0.31449719,0,0,0.31449719,186.93798,-27.842508)"
        id="Ball8">
       <g
+         class="top-ball"
          transform="translate(16.152886,84.49202)"
          id="g1201">
         <circle
@@ -265,6 +273,7 @@
       </g>
     </g>
     <g
+       class="bottom-ball"
        id="Ball9"
        transform="matrix(0.31449719,0,0,0.31449719,167.293,-32.78279)">
       <circle
@@ -291,6 +300,7 @@
          id="path839-6-6-3-3-5-1" />
     </g>
     <g
+       class="top-ball"
        id="Ball10"
        transform="matrix(0.31449719,0,0,0.31449719,218.19974,-32.922544)">
       <circle
@@ -317,6 +327,7 @@
          id="path839-6-69-5-5-5-7" />
     </g>
     <g
+       class="bottom-ball"
        transform="matrix(0.31449719,0,0,0.31449719,239.97661,-0.34870569)"
        id="Ball11">
       <circle
