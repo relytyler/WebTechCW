@@ -39,7 +39,8 @@ app.post('/auth', function(request, response) {
 				request.session.username = username;
 				response.redirect('http://localhost:8080/index.html');
 			} else {
-				response.send('Incorrect Username and/or Password!');
+				response.redirect('http://localhost:8080/incorrect.html');
+				// response.send('Incorrect Username or Password! Please go back.');
 			}			
 			response.end();
 		});
@@ -49,14 +50,14 @@ app.post('/auth', function(request, response) {
 	}
 });
 
-app.get('/index.html', function(request, response) {
-	if (request.session.loggedin) {
-		response.send('Welcome back, ' + request.session.username + '!');
-	} else {
-		response.send('Please login to view this page!');
-	}
-	response.end();
-});
+// app.get('/index.html', function(request, response) {
+// 	if (request.session.loggedin) {
+// 		response.send('Welcome back, ' + request.session.username + '!');
+// 	} else {
+// 		response.send('Please login to view this page!');
+// 	}
+// 	response.end();
+// });
 
 app.listen(3000);
 

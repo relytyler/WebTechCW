@@ -26,6 +26,13 @@ p {
   text-align: center;
 }
 
+.back {
+  background-color: #d4af37;
+  color: #3A4750;
+  padding: 10px;
+  text-align: center;
+}
+
 .topnav {
   background-color: #3A4750;
   overflow: hidden;
