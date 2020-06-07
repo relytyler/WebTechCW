@@ -223,44 +223,27 @@ p {
 }
 
 @keyframes bottom-bounce {
-  
-  0% {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-  }
 
   50% {
-    position: absolute;
-    left: 0px;
-    top: -200px;
-  }
-
-  100% {
-    position: absolute;
-    left:0px;
-    top: 0px;
+    transform: translateY(-35px);
   }
   
 }
 
 @keyframes top-bounce {
-  
-  0% {
-    /* transform: translateY(0px); */
-  }
 
   50% {
-    transform: translateY(-150px);
-  }
-
-  100% {
-    /* transform: translateY(0px); */
+    transform: translateY(35px);
   }
   
 }
 
-.bottom-ball {
+.BotLayer {
   position: relative;
-  animation: bottom-bounce 5s linear 2s infinite alternate;
+  animation: bottom-bounce 3s ease infinite alternate;
+}
+
+.TopLayer {
+  position: relative;
+  animation: top-bounce 3s ease infinite alternate;
 }

@@ -51,7 +51,8 @@
   <g
      inkscape:label="BotLayer"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     class="BotLayer">
     <g
        transform="matrix(0.31449719,0,0,0.31449719,-12.79975,-1.1372241)"
        id="Ball1"
@@ -222,7 +223,8 @@
   <g
      inkscape:label="TopLayer"
      id="layer2"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     class="TopLayer">
     <g
        class="bottom-ball"
        transform="matrix(0.31449719,0,0,0.31449719,11.866625,-35.1973)"

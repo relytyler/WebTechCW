@@ -94,3 +94,41 @@ body {
     width: 50%;
     overflow: hidden;
   }
+
+  .banner {
+    position: absolute;
+    left: 15%;
+    top: 10px;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    max-height: 223px;
+  }
+  
+  @keyframes bottom-bounce {
+  
+    50% {
+      transform: translateY(-35px);
+    }
+    
+  }
+  
+  @keyframes top-bounce {
+  
+    50% {
+      transform: translateY(35px);
+    }
+    
+  }
+  
+  .BotLayer {
+    position: relative;
+    animation: bottom-bounce 3s ease infinite alternate;
+  }
+  
+  .TopLayer {
+    position: relative;
+    animation: top-bounce 3s ease infinite alternate;
+  }
