@@ -1,5 +1,3 @@
-In order for the login page to work, you will need to create a database as we did not get around to creatnig a register function.
-
 The website login page uses MySQL.
 The following commands will give you the database required.
 
